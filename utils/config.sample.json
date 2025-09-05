@@ -1,0 +1,9 @@
+{
+  "ADDRESS": "0.0.0.0:8080",
+  "PORT": 8080,
+  "SQL_HOST": "{sqlserver:host}",
+  "SQL_USER": "{sqlserver:user}",
+  "SQL_PASSWORD": "{sqlserver:password}",
+  "SQL_DB": "{sqlserver:database}",
+  "SQL_PORT": 1234
+}
