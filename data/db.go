@@ -18,8 +18,8 @@ func InitDB() error {
 		return err
 	}
 
-	conn := fmt.Sprintf("server=%s;user id=%s;password=%s;port=%d;database=%s", 
-	config.SQL_HOST, config.SQL_USER, config.SQL_PASSWORD, config.SQL_PORT, config.SQL_DB)
+	conn := fmt.Sprintf("server=%s;user id=%s;password=%s;port=%d;database=%s",
+		config.SQL_HOST, config.SQL_USER, config.SQL_PASSWORD, config.SQL_PORT, config.SQL_DB)
 
 	db, err = sql.Open("sqlserver", conn)
 	if err != nil {
